@@ -15,7 +15,9 @@ function whileLoop(n){
   return "done";
 }
 
-var i = 0;
+
+function doWhileLoop(num){
+  var i = 0;
  
 function incrementVariable() {
   i = i + 1;
@@ -23,9 +25,6 @@ function incrementVariable() {
 }
  
 do {
-  console.log("doo-bee-doo-bee-doo");
-} while (incrementVariable() < 5);
-
-function doWhileLoop(num){
-  
+  console.log("");
+} while (incrementVariable() < num);
 }
